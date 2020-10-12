@@ -1,0 +1,12 @@
+{
+    "name": "GIF Downloader",
+    "description": "Download GIF's from using Giphy API",
+    "manifest_version": 2,
+    "version": "1.0",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "downloads"
+    ]
+}

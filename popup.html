@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF downloader</title>
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+    <script defer src="popup.js"></script>
+    <style>
+        body {
+            width: 450px;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="empty bg-dark">
+        <p class="empty-title h5">Search and Donwload GIF</p>
+        <p class="empty-subtitle">Powered by Giphy</p>
+        <div class="empty-action bg-dark">
+            <input type="text" id="search" placeholder="search giphy">
+        </div>
+    </div>
+    <div class="columns col-gapless bg-dark"></div>
+</body>
+
+</html>
